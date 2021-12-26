@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Recipekorea';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{color: #333; font-size: 2.5em;}
+h1 span{color: #d3313a}
+
+label{ vertical-align: middle;}
+input[type="checkbox"]{width: 20px; height: 20px;}
+
+.check-container{text-align: center; width: 1000px; margin: 0 auto;}
+.check-content{background-color: #d3313a; color: #fff; padding: 20px 0;}
+.check-box{display: flex; flex-wrap: wrap; border: 1px solid #ccc; border-top: none;}

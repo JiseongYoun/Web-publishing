@@ -1,0 +1,80 @@
+/* Banner common */
+.order-banner,.sns-banner{display: flex; justify-content: center; font-size: 1.2em; font-family: 'Noto Sans KR', sans-serif; font-weight: 500}
+.order,.gift,.store,.facebook,.insta,.blog{padding: 35px 140px; text-align: center; cursor: pointer; width: -moz-available; width: -webkit-fill-available; width: fill-available;}
+
+/********** Sec01 Start **********/
+.first {width: 100%; height: 540px;}
+.first .swiper-wrapper .swiper-slide {position: relative;}
+.first > img{transform: translate(0%, -50%); width: 100%; height: 100%;margin-top: 270px;}
+.first .swiper-wrapper .swiper-slide h1 { position: absolute; top: 50%; left: 50%; transform: translate(0, -50%); color: #fff; font-size: 3vw;}
+
+/*Order-banner */
+.order,.facebook{background-color: #d3313a; color: #fff; border-radius: 20px 0 0 0;}
+.order:hover{background-color: #c12932;}
+.gift{background-color: #666; color: #fff; }
+.gift:hover{background-color: #595959;}
+.store{background-color: #ccc; color: #333; border-radius: 0 0 20px 0;}
+.store:hover{background-color: #bfbfbf;}
+
+/* Youtube video */
+.video{position: relative; padding-bottom: 56.25%; margin: 80px 0; height: 0; overflow: hidden;}
+.video iframe{position: absolute; width: 100%; height: 100%;}
+
+/* SNS-banner */
+.sns-banner{font-size: 1em !important; margin-bottom: 80px;}
+.insta,.blog{background-color: #d3313a; color: #fff; }
+.blog{border-radius: 0 0 20px 0}
+
+
+/********** Sec02 Start **********/
+/* Isaac Menu tab */
+.container .sec01,.sec02,.sec03{border-bottom: 1px solid #ddd; padding: 80px 0;text-align: center}
+.menu-category{display: inline-flex;}
+.issac-menu span{color: #d3313a}
+.issac-menu{color:#333; font-size: 2em; font-family: 'Recipekorea', sans-serif; font-weight: 600;}
+
+.tabs {display: flex; flex-wrap: wrap; text-align: center; justify-content: center; padding-top: 40px; height: 500px;}
+.tabs label {order: 1; display: block; padding-right: 0 20px; font-size: 1.2em; text-align: center; cursor: pointer; font-weight: 500; transition: background ease .2s}
+.tabs .tab {order: 99; flex-grow: 1; width: 100%; display: none; padding: 1rem; }
+#tabCenter::before{content: ""; clear: both; border: 1px solid #ddd; margin: 0 30px;}
+#tabCenter::after{content:""; clear: both; border: 1px solid #ddd; margin: 0 30px;}
+.tabs input[type="radio"] {display: none}
+.tabs input[type="radio"]:checked+label {color: #d3313a}
+.tabs input[type="radio"]:checked+label+.tab {display: block}
+
+/***** Slide *****/
+/* Slide button */
+.main-slide{padding-top: 120px;}
+.swiper-container.swiper-menu{padding: 20px;}
+.swiper-menu {width: 1500px;}
+.swiper-button-prev::after,.swiper-button-next::after{display: none;}
+.swiper-button-prev{background-image: url(/icons/before-icon.png); background-repeat: no-repeat; background-position: center;}
+.swiper-button-next{
+    background-image: url(/icons/after-icon.png);background-repeat: no-repeat;background-position: center;
+}
+.swiper-pagination-bullet{width:180px !important; height: 3px !important; background: #fff !important; opacity: 0.8 !important; border-radius: 10px !important; transition: height 300ms;}
+.swiper-pagination-bullet-active{height: 5px !important;}
+
+/* Isaac Menu box in Slider  */
+
+.second{width: 1500px}
+.second.swiper-slide{text-align: center;}
+.toast-img > img{width: 200px}
+.text-wrap{line-height: 1.5;}
+.KR-title{font-size: 1.3em; color: #333; font-family: 'Noto Sans KR',sans-serif; }
+.EN-title{font-family: 'Rubik',sans-serif; font-size: 1.2em; font-weight: 300; color: #555;}
+.text-details{margin-top: 1em; font-size:0.9em; color: #999; }
+
+
+/********** sec 03 **********/
+.sec03{background-color: #fbeaeb;}
+.box-wrap.container{display: flex; justify-content: center; margin-top: 80px;}
+.box{background-color: #fddfe1; margin-right: 30px; width: 100%; }
+.box:hover{background-color: #ffd2d5; cursor: pointer;}
+.box p.box-title{color: #333; font-size: 1.3em; font-weight: 600; padding: 1em 0; border-bottom: 1px solid #ccc;}
+.box-bottom{padding: 1em 1em; text-align: left; color: #666; line-height: 1.5; font-size: 0.9em;}
+.box-text{height: 2.5em;}
+.box-date-between{margin-top: 30px; display: flex;}
+.box-date{display: inline-flex; flex: auto; line-height: 3}
+.box-icon img{width: 50px;cursor: pointer;transition: all ease 0.5s;}
+.box-icon img:hover{transform:rotate(90deg);}

@@ -1,0 +1,47 @@
+/***** Sec 01 *****/
+h1{color: #333; font-size: 2.5em;}
+h1 span{color: #d3313a; color: #d3313a;}
+h2{font-size: 1.5em; font-weight: 500}
+dl{padding: 5px 0 0 5px;}
+dl > dt{font-size: 1.5em; color: #d3313a; font-weight: 500; padding-bottom: 20px;}
+dl > dd{line-height: 1.5;}
+.subtitle{color: #333;font-size: 1em;}
+.step-number{color: #666; font-family: 'Rubik',sans-serif; font-size: 3.2em; font-weight: 500; padding: 20px 0;}
+
+
+/***** Sec 02 *****/
+.sec02{background-color: #f6f6f6; padding: 80px 250px;}
+
+/* Step-container */
+.step-container{justify-content: center; padding-top: 10px;}
+.step-box{position: relative; flex: 0 0 15%; margin: 0 20px; padding-bottom: 30px; border-bottom: 1px solid #ccc;}
+.step-box::after{content: ""; width: 1.875rem; background-color: #999; height: 1px; position: absolute; right: 0; bottom: -1px; transform: rotate(45deg); transform-origin: right;}
+.step-top{display: flex; flex-wrap: wrap;}
+.step-bottom{display: flex; justify-content: flex-end; padding-top: 20px;}
+.step-comment-wrap{display: inline-flex; align-items: center; margin: 0 auto;}
+.step-comment-text{padding: 25px; background-color: #eaeaea; border-radius: 20px 0 20px 0;}
+
+/***** Sec 03 *****/
+.cost-table-content{padding: 70px 0;}
+.cost-table{width: 100%; margin-top: 30px; border-top: 1px solid #222;}
+.cost-table tr:last-child,.cost-table tr:last-child > th,.cost-table tr:last-child > td{background-color: #d3313a !important; color: #fff !important;}
+.cost-table tr{border-bottom: 1px solid #ccc}
+.cost-table th{ width: auto; font-size: 1.3em; font-weight: 500; background-color: #F5F5F5; color: #222; border-right: 1px solid #ccc; vertical-align: middle;}
+/*.cost-table tr:nth-child(4) th:first-child{width: 50px; font-size: 5em;}*/
+.cost-table td{padding: 15px; color: #555; font-size: 1.2em; vertical-align: middle;}
+.cost-table .first-td{width: 135px; text-align: center;}
+
+.p-comment{padding-top: 20px; text-align: right}
+.table-comment{padding-top: 70px}
+.table-comment p{color: #666; padding-top: 15px}
+
+/***** Sec 04 *****/
+.container.sec04{border-top: 1px solid #ccc; padding-top: 70px; padding-bottom: 150px;}
+.need-document-content{display: flex; flex-wrap: wrap;}
+.document-container .document-number{font-family: 'Rubik',sans-serif; font-size: 2em; font-weight: 500; color: #d3313a;}
+.document-container{flex: 0 0 50%; padding-top: 40px;}
+.document-box{margin: 20px; padding: 30px; border: 1px solid #ccc; height: 250px; border-radius: 25px 0px 25px 0px; height: 100%; box-sizing: border-box;}
+.document-title{padding: 10px 0; font-size: 1.5em; font-weight: 500;}
+small{font-size: 0.8em;}
+.document-list{color: #666; font-size: 1.2em}
+.document-list > li{line-height: 1.8}

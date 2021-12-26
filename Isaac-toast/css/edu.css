@@ -1,0 +1,28 @@
+h1{color: #333; font-size: 2.5em;}
+h1 span{color: #d3313a}
+h2{font-size: 1.5em; font-weight: 500}
+h3{font-size: 2em; font-weight: 500; padding: 30px 0;}
+h3::before{content: ""; width: 20px; height: 5px; background-color: #d3313a; border-radius: 10px; position: relative; display: inline-flex; top: -10px; margin-right: 10px;}
+dl > dt{font-size: 1.5em; color: #d3313a; font-weight: 500;}
+
+
+.sec02{background-color: #f6f6f6; padding: 80px 250px;}
+.subtitle{color: #333;font-size: 1em;}
+.step-number{color: #666; font-family: 'Rubik',sans-serif; font-size: 3.2em; font-weight: 500; padding: 20px 0;}
+.number img{position: relative; top: 5px;}
+.subtitle{font-size: 1em;}
+.container.edu-title{text-align: center;}
+.step-container{display: flex; padding-top: 10px;}
+.step-box{position: relative; flex-basis: 20%; margin: 0 20px; padding-bottom: 30px; border-bottom: 1px solid #ccc;}
+.step-box::after{content: ""; width: 1rem; background-color: #999; height: 1px; position: absolute; right: 0; bottom: -1px; transform: rotate(45deg); transform-origin: right;}
+
+.sec03{padding: 70px 250px;}
+.edu-table-content{padding: 70px 0;}
+.edu-table{width: 100%; margin-top: 30px; border-top: 1px solid #222;}
+.edu-table-header tr{border-bottom: 1px solid #ccc; width: 100%;}
+.edu-table-header th{font-size: 1.3em; font-weight: 500; background-color: #F5F5F5; color: #222; border-top: 1px solid #555; padding: 15px; text-align: center; border-bottom: 1px solid #555; }
+.edu-table-header th:nth-child(2){border-left: 1px solid #ccc; border-right: 1px solid #ccc;}
+.edu-table-body td{ border: 1px solid #ccc; border-left: none; text-align: center; vertical-align: middle;padding: 15px; color: #555; font-size: 1.2em;}
+.edu-table-body td:nth-child(3){text-align: left;}
+.edu-table-body td:last-child{border-right: none;}
+.edu-table-body .first-td{width: 135px; text-align: center; border-right: 1px solid #ccc}

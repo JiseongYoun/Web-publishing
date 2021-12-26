@@ -1,0 +1,44 @@
+h1{color: #333; font-size: 2.5em;}
+h1 span{color: #d3313a; color: #d3313a;}
+h2{font-size: 1.5em; font-weight: 500;}
+input,select,textarea{font-size: 1em; font-family: 'Noto Sans KR', sans-serif; padding-left: 0.5rem;  }
+input:focus,textarea:focus{outline: none;font-size: 1em;}
+label{cursor: pointer; position: relative; color: #555; font-size: 1em;}
+input[type="checkbox"]{border-color: #ccc;width: 20px; height: 20px; line-height: 2; cursor: pointer; position: relative;top: 4px; }
+input[type=checkbox]+label{display: inline-block;}
+.content-text{padding-top: 20px}
+
+.container.sec04{border-top: 1px solid #ccc; padding-top: 70px; padding-bottom: 150px;}
+.need-document-content{display: flex; flex-wrap: wrap;}
+.document-container .document-number{font-family: 'Rubik',sans-serif; font-size: 2em; font-weight: 500; color: #d3313a;}
+.document-container{flex: 0 0 31%; padding-top: 40px; margin: 0 15px;}
+.document-box{padding: 30px; border: 1px solid #ccc; height: 250px; border-radius: 25px 0px 25px 0px; height: 100%; box-sizing: border-box; text-align: center;}
+.document-box > dt{font-size: 1.6em; font-family: 'Noto Sans KR', sans-serif; font-weight: 500; }
+.document-box > dd{font-size: 1rem; color: #555; margin-top: 20px;}
+.document-title{padding: 10px 0; font-size: 1.5em; font-weight: 500;}
+small{font-size: 0.8em;}
+.document-list{color: #666; font-size: 1.2em}
+.document-list > li{line-height: 1.8}
+.privacy-text{height: 200px; overflow-y: auto;}
+
+/* Consulting table */
+.sec03{padding-top:70px;}
+.consulting-table{border-top: 1px solid #000; margin-top: 25px; width: 100%}
+.consulting-table tr{border-bottom: 1px solid #ccc;}
+.consulting-table th{padding: 25px 0;text-align: left;width: 100px; font-size: 1rem}
+.consulting-table th::after{content:"*";color: #dc3545; padding-left: 5px; }
+.consulting-table td{padding:15px 0;}
+.consulting-input{height: 40px; width: 250px; border: 1px solid #ccc;}
+.consulting-input.budget{height: 40px; width: 150px; text-align: right; padding-right: 20px; margin-right: 10px}
+.consulting-input.inquire{height: 300px; width: 100%; padding-right: 20px; }
+.counsulting-input.security-number{height: 40px;  border: 1px solid #ccc; margin-right: 10px; width: 100px;}
+.counsulting-input.security-text{height: 40px;  border: 1px solid #ccc;}
+.city-select{height: 40px; width: 200px;border: 1px solid #ccc; margin-right: 10px;}
+.privacy-container{padding: 40px 0 80px 0; }
+.privacy-text{border: 1px solid #ccc; height: 150px; font-size: 0.9em;line-height: 1.5; color: #555; padding: 20px; margin: 20px 0 }
+.privacy-container > p{font-size: 1.2rem; font-family: 'Noto Sans KR',sans-serif; font-weight: 500;}
+
+.inquire-btn{text-align: center;}
+.inquire-btn > button{border-radius: 20px 0 20px 0; background-color: #666; border: 0; color: #fff; cursor: pointer; width: 180px; height:50px; font-size: 1rem; font-family: 'Noto Sans KR',sans-serif}
+.inquire-btn > button:hover{background-color: #4d4d4d;}
+
